@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A349A5902486B64600DA0B42 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349A58F2486B64600DA0B42 /* QuestionsViewController.swift */; };
+		A349A5922486B65C00DA0B42 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349A5912486B65C00DA0B42 /* ResultsViewController.swift */; };
 		A3E353092482B1F30018259E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E353082482B1F30018259E /* AppDelegate.swift */; };
 		A3E3530B2482B1F30018259E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3530A2482B1F30018259E /* SceneDelegate.swift */; };
-		A3E3530D2482B1F30018259E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3530C2482B1F30018259E /* ViewController.swift */; };
+		A3E3530D2482B1F30018259E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E3530C2482B1F30018259E /* IntroductionViewController.swift */; };
 		A3E353102482B1F30018259E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E3530E2482B1F30018259E /* Main.storyboard */; };
 		A3E353122482B1F70018259E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E353112482B1F70018259E /* Assets.xcassets */; };
 		A3E353152482B1F70018259E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E353132482B1F70018259E /* LaunchScreen.storyboard */; };
@@ -20,10 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A349A58F2486B64600DA0B42 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		A349A5912486B65C00DA0B42 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		A3E353052482B1F30018259E /* PersonalQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E353082482B1F30018259E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3E3530A2482B1F30018259E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3E3530C2482B1F30018259E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3E3530C2482B1F30018259E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		A3E3530F2482B1F30018259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3E353112482B1F70018259E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3E353142482B1F70018259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 		A3E3531D2482B3150018259E /* Viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				A3E3530C2482B1F30018259E /* ViewController.swift */,
+				A3E3530C2482B1F30018259E /* IntroductionViewController.swift */,
+				A349A5912486B65C00DA0B42 /* ResultsViewController.swift */,
+				A349A58F2486B64600DA0B42 /* QuestionsViewController.swift */,
 			);
 			path = Viewcontrollers;
 			sourceTree = "<group>";
@@ -190,10 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E3530D2482B1F30018259E /* ViewController.swift in Sources */,
+				A3E3530D2482B1F30018259E /* IntroductionViewController.swift in Sources */,
 				A3E353222482D6570018259E /* Question.swift in Sources */,
+				A349A5902486B64600DA0B42 /* QuestionsViewController.swift in Sources */,
 				A3E353092482B1F30018259E /* AppDelegate.swift in Sources */,
 				A3E353262482D7BC0018259E /* Answer.swift in Sources */,
+				A349A5922486B65C00DA0B42 /* ResultsViewController.swift in Sources */,
 				A3E3530B2482B1F30018259E /* SceneDelegate.swift in Sources */,
 				A3E353242482D7540018259E /* ResponseType.swift in Sources */,
 				A3E353282482D7EC0018259E /* AnimalType.swift in Sources */,
